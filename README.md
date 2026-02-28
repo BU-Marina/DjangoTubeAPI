@@ -20,11 +20,11 @@ DjangoTube - социальная сеть, в которой можно соз�
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/Marina-ui/api_final_yatube
+git clone https://github.com/Marina-ui/api_final_djangotube
 ```
 
 ```
-cd api_final_yatube
+cd api_final_djangotube
 ```
 
 Cоздать и активировать виртуальное окружение:
@@ -47,7 +47,7 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Выполнить миграции из директории yatube_api:
+Выполнить миграции из директории djangotube_api:
 
 ```
 python3 manage.py migrate
@@ -88,7 +88,7 @@ python manage.py createsuperuser
 http://127.0.0.1:8000/api/v1/
 ```
 
-Подробнее о возможностях api yatube:
+Подробнее о возможностях api djangotube:
 
 ```
 http://127.0.0.1:8000/redoc/
